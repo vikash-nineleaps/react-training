@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import Demo from './components/Demo';
+import Department from './components/Department';
+// let name="nineleaps"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Department level="operation" name="vikash"/>
+    {/* <Demo/>
+     <h1> My first react app</h1>
+     <h3>I am {name}. you are present in {2+2} locations</h3>
+     <Demo/> */}
     </div>
   );
 }
